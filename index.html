@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DayTrade Pro — Landing</title>
+  <meta name="description" content="DayTrade Pro — guia e planilha para Mini-Índice. Material educacional." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TOP NAV -->
+  <header class="topo" role="banner">
+    <div class="logo">TCAP</div>
+    <nav class="menu" role="navigation" aria-label="Menu principal">
+      <a href="#banner">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#video">Vídeo</a>
+      <a href="#duvidas">Dúvidas</a>
+    </nav>
+  </header>
+
+  <!-- BANNER -->
+  <main>
+    <section class="banner" id="banner" aria-label="Banner principal">
+      <img class="banner-img"
+           src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcS84pZ_4xCgw-hXFxaVr6L4vRPMGko22d4OusxbJKMOBxCsyjAnWfrVqUq_a9cZegbL9b2lRTzkl272_Oykwwb-k2eFlJrBhcYmSeigjiITaCQM-CdmyyOuE4dnkhgjp1rw4liqw6FD3jAU_AWGF5LT5gc?key=b36gUTlHvqu6mqQJbSB70w"
+           alt="Banner Day Trade — Mini Índice" />
+      <div class="banner-content">
+        <span class="kicker">DayTrade Essentials</span>
+        <h1>Aprenda Mini-Índice do zero e opere com confiança</h1>
+        <p class="lead">Guia prático, planilha e conceitos de gestão de risco — ideal para quem quer evoluir de BRL para moedas fortes.</p>
+        <div class="cta">
+          <a class="btn" href="contato/Formulario.html">Fale Conosco</a>
+          <a class="btn outline" href="#video">Ver Vídeo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section fade">
+      <h2>Sobre Nós</h2>
+      <p>Equipe focada em educação para traders iniciantes no mini-índice. Conteúdo didático, ênfase em gestão de risco e planilhas práticas.</p>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section id="beneficios" class="section fade">
+      <h2>Benefícios</h2>
+      <div class="grid">
+        <div class="card">📈 Estratégias simples e diretas</div>
+        <div class="card">💰 Gestão de risco consistente</div>
+        <div class="card">📊 Planilha para acompanhar operações</div>
+      </div>
+    </section>
+
+    <!-- RESULTADOS -->
+    <section id="resultados" class="section fade">
+      <h2>Resultados (exemplo)</h2>
+      <div class="grid">
+        <div class="stat card"><div class="big">+12% / mês</div><div class="small">Exemplo ilustrativo</div></div>
+        <div class="stat card"><div class="big">R$ 4.850</div><div class="small">Lucro (exemplo)</div></div>
+        <div class="stat card"><div class="big">5 trades/dia</div><div class="small">Média (exemplo)</div></div>
+      </div>
+      <p class="note">Valores ilustrativos.</p>
+    </section>
+
+    <!-- VIDEO -->
+    <section id="video" class="fade">
+    <h2>Vídeo Explicativo</h2>
+
+    <div class="video-container">
+        <iframe 
+            width="100%" 
+            height="315"
+            src="https://www.youtube.com/embed/n2REcVNmJ90?si=gnPx9P7B6uN5nhFD"
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+    <!-- DÚVIDAS / FAQ -->
+    <section id="duvidas" class="section fade">
+      <h2>Dúvidas Frequentes</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>Preciso ter experiência?</strong>
+          <p>Não — o material cobre conceitos para iniciantes.</p>
+        </div>
+        <div class="card">
+          <strong>Quanto capital preciso?</strong>
+          <p>O mini-índice permite entradas menores; comece com capital que você pode arriscar.</p>
+        </div>
+        <div class="card">
+          <strong>Garantia de lucro?</strong>
+          <p>Não há garantias. Use gestão de risco e pratique em conta demo.</p>
+        </div>
+      </div>
+
+      <div class="faq-download">
+        <a class="btn" href="daytrade.pdf" download>Baixar PDF com mais dúvidas</a>
+      </div>
+    </section>
+
+    <!-- CONTATO + DOWNLOAD (redundante, opcional) -->
+    <section class="section fade">
+      <h2>Pronto para começar?</h2>
+      <div class="cta">
+       <a class="btn" href="\Formulario.html">Fale Conosco</a>
+        <a class="btn outline" href="daytrade.pdf" download>Baixar Conteúdo</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <small>© <span id="ano"></span> TCAP — Material educacional.</small>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>document.getElementById('ano').innerText = new Date().getFullYear();</script>
+</body>
+</html>
